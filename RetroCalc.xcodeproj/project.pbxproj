@@ -12,6 +12,8 @@
 		ABCEFA7B1BD9F29900A543B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCEFA791BD9F29900A543B5 /* Main.storyboard */; };
 		ABCEFA7D1BD9F29900A543B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCEFA7C1BD9F29900A543B5 /* Assets.xcassets */; };
 		ABCEFA801BD9F29900A543B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCEFA7E1BD9F29900A543B5 /* LaunchScreen.storyboard */; };
+		ABCEFA881BDACD6D00A543B5 /* blocks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABCEFA871BDACD6D00A543B5 /* blocks.ttf */; settings = {ASSET_TAGS = (); }; };
+		ABCEFA8A1BDAD09D00A543B5 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABCEFA891BDAD09D00A543B5 /* btn.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ABCEFA7C1BD9F29900A543B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCEFA7F1BD9F29900A543B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCEFA811BD9F29900A543B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCEFA871BDACD6D00A543B5 /* blocks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blocks.ttf; sourceTree = "<group>"; };
+		ABCEFA891BDAD09D00A543B5 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		ABCEFA741BD9F29900A543B5 /* RetroCalc */ = {
 			isa = PBXGroup;
 			children = (
+				ABCEFA871BDACD6D00A543B5 /* blocks.ttf */,
+				ABCEFA891BDAD09D00A543B5 /* btn.wav */,
 				ABCEFA751BD9F29900A543B5 /* AppDelegate.swift */,
 				ABCEFA771BD9F29900A543B5 /* ViewController.swift */,
 				ABCEFA791BD9F29900A543B5 /* Main.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCEFA8A1BDAD09D00A543B5 /* btn.wav in Resources */,
+				ABCEFA881BDACD6D00A543B5 /* blocks.ttf in Resources */,
 				ABCEFA801BD9F29900A543B5 /* LaunchScreen.storyboard in Resources */,
 				ABCEFA7D1BD9F29900A543B5 /* Assets.xcassets in Resources */,
 				ABCEFA7B1BD9F29900A543B5 /* Main.storyboard in Resources */,
