@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     var runningNumber = ""
     var leftValue = ""
     var rightValue = ""
+    var currentOpperation: Operation = Operation.Empty
     
     enum Operation : String
     {
@@ -30,9 +31,6 @@ class ViewController: UIViewController {
         case Equals = "="
         case Empty = "Empty"
     }
-    
-    var currentOpperation: Operation = Operation.Empty
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,11 +84,22 @@ class ViewController: UIViewController {
 
     }
     
+    @IBAction func onClearPressed(sender: AnyObject)
+    {
+        playSound()
+        resetAllValues()
+    }
+    
     func processOperation(opt: Operation)
     {
         playSound()
         if(currentOpperation != Operation.Empty)
         {
+            if(leftValue == "")
+            {
+                leftValue = "0"
+            }
+            
             if(runningNumber != "")
             {
                 rightValue = runningNumber
@@ -137,6 +146,15 @@ class ViewController: UIViewController {
         }
         
         buttonSound.play()
+    }
+    
+    func resetAllValues()
+    {
+        runningNumber = ""
+        leftValue = ""
+        rightValue = ""
+        currentOpperation = Operation.Empty
+        calcScrene.text = "0"
     }
     
 }
